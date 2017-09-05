@@ -1,6 +1,6 @@
 # Control flow 이용해서 도형 그리기
 
-- []()
+- ![](https://github.com/qskeksq/Java_ControlFlow/blob/master/example/controlflow1.png)
 
 ``` java
 public void drawLeftTriangle(String mark, int limit) {
@@ -63,7 +63,7 @@ public void drawEmptyTriangle1(String mark, int limit) {
 ```
 
 
-- []()
+- ![](https://github.com/qskeksq/Java_ControlFlow/blob/master/example/controlflow2.png)
 
 ```java
 public void drawEmptyTriangle2(String mark, int limit) {
@@ -113,7 +113,7 @@ public void drawLosange1(String mark, int limit) {
 ```
 
 
-- []()
+- ![](https://github.com/qskeksq/Java_ControlFlow/blob/master/example/controlflow3.png)
 
 ```java
 public void drawLosange2(String mark, int limit) {
@@ -174,7 +174,7 @@ public void drawLosange3(String mark, int limit) {
 	}
 ```
 
-- []()
+- ![](https://github.com/qskeksq/Java_ControlFlow/blob/master/example/controlflow4.png)
 
 ```java
 public void drawX(String mark, int limit) {
@@ -229,27 +229,5 @@ public void drawEmptyBox(String mark, int limit) {
 			System.out.println(" ");
 		}
 		System.out.println(" ");
-	}
-
-	public void drawFan(String mark, int limit) {
-
-		for(int outer=0; outer<limit; outer++) {
-
-			int space = ((limit)*(limit)-(limit+-outer)*(limit-outer))/2;
-
-			for(int inner=0; inner<space; inner++) {
-				System.out.print(" ");
-			}
-
-			for(int inner=0; inner<(limit-outer)*(limit-outer); inner++) {
-
-				if(inner%(limit-outer)==0) {
-					System.out.print(mark);
-				} else {
-					System.out.print(" ");
-				}
-			}
-			System.out.println("");
-		}
 	}
 ```
