@@ -1,7 +1,7 @@
 # Control flow 이용 도형 그리기
 
 
-[](https://github.com/qskeksq/Java_ControlFlow/blob/master/example/controlflow1.png)
+![](https://github.com/qskeksq/Java_ControlFlow/blob/master/example/controlflow1.png)
 
 ``` java
 public void drawLeftTriangle(String mark, int limit) {
