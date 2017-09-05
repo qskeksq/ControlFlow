@@ -1,4 +1,4 @@
-# Control flow 이용해서 도형 그리기
+# Control flow 이용 도형 그리기
 
 
 [](https://github.com/qskeksq/Java_ControlFlow/blob/master/example/controlflow1.png)
