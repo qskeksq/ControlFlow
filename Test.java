@@ -211,7 +211,7 @@ public class Test {
 		
 		for(int outer=0; outer<limit; outer++) {
 			
-			int space = ((limit)*(limit)-(limit+-outer)*(limit-outer)+1)/2;
+			int space = ((limit)*(limit)-(limit+-outer)*(limit-outer))/2;
 			
 			for(int inner=0; inner<space; inner++) {
 				System.out.print(" ");
